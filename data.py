@@ -8,7 +8,7 @@ import streamlit as st
 from pathlib import Path
 
 # ── File paths ─────────────────────────────────────────────────────────────────
-DATA_DIR = Path(__file__).parent
+DATA_DIR = Path(__file__).resolve().parent
 EARNINGS_FILE    = DATA_DIR / "High_School_Graduate_Outcomes__Earnings_20260530.xlsx"
 ENROLLMENT_FILE  = DATA_DIR / "High_School_Graduate_Outcomes__Enrollment_by_Institution_20260530.xlsx"
 
